@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Todo List</h2>
+        <div class="input-box">
+            <input type="text" name="value" id="input" placeholder="Add Todo Now...!" required>
+            <i class="ri-add-circle-line" onclick="addTask()"></i>
+        </div>
+        <div class="input-display">
+            <ul id="display"></ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
